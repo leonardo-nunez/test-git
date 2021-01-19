@@ -3,18 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First day of IT programming</title>
+    <title>IT programming - First lessons</title>
+    <link rel="stylesheet" href="styles\index.css">
 </head>
 <body>
-    <h2>Intro to HTML</h2>
-    <h4>1. Check the videos</h4>
-    <a href="https://youtu.be/UB1O30fR-EE" title="Wrong link! - Video is in Teams" target="_blank"><img src="images\act1.png" alt=""></a>
-    <a href="https://youtu.be/72NfSwCzFVE" title="Wrong video again!" target="_blank"><img src="images\nr2.png" alt=""></a>
-    <h4>2. Read the word documents</h4>
-    <p>The most <strong>important</strong> links are:</p>
-    <a href="https://www.w3schools.com/tags/default.asp" title="about tags" target="_blank"><p>Read about different tags</p></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" title="HTML basics" target="_blank"><p>Getting Started with HTML</p></a>
+    <head>
+        <h1>Intro to HTML</h1>
+    </head>
+
+    <nav>
+        <ul>
+            <li><a href="#first_lesson">First lesson</a></li>
+            <li><a href="#second_lesson">Second lesson</a></li>
+                <ol>
+                    <li><a href="#sl_html">HTML</a></li>
+                    <li><a href="#sl_css">CSS</a></li>
+                </ol>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="first_lesson" class="first-section"><!--What to do the first day-->
+        <h2>First lesson</h2>
+        
+        <h4>1. Check the videos</h4>
+        <a href="https://youtu.be/UB1O30fR-EE" title="Wrong link! - Video is in Teams" 
+        target="_blank"><img src="images\act1.png" alt="Lesson1. video1"></a>
+        <a href="https://youtu.be/72NfSwCzFVE" title="Wrong video again!" target="_blank">
+        <img src="images\nr2.png" alt="Lesson1, video2"></a>
+        
+        <h4>2. Read the word documents</h4>
+        <p>The most <strong>important</strong> links are:</p>
+        <a href="https://www.w3schools.com/tags/default.asp" title="about tags" target="_blank">
+        <p>Read about different tags</p></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" 
+        title="HTML basics" target="_blank"><p>Getting Started with HTML</p></a>
+    </section>
+
+    <section id="second_lesson" class="second-section"><!--What to do the second day-->
+        
+        <h2>Second lesson</h2>
+        
+        <h3 id="sl_html">HTML</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j6qpFWuTYjs" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    <section class="about-css">    
+        <h3 id="sl_css">CSS</h3>
+    
+    </section>
+
     <br>
-    <!--TODO: comment line-->
+
+    <footer id="contact">
+        <h3>Kontakt</h3>
+        <a href="https://sundsgarden.se/" title="Sundsgårdens folkhögskolas website">
+            <img style="height: 60px;" src="images\sundsgarden-folkhogskola-rgb.png" alt="Sundsgårdens logo"></a>
+            <br>
+            <a href="mailto:leonardo.nunez@stud.sundsgarden.se">Leonardo.Nunez@stud.sundsgarden.se</a>
+    </footer>
+
 </body>
 </html>
